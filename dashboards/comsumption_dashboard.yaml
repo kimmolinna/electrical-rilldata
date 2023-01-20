@@ -1,0 +1,14 @@
+# Visit https://docs.rilldata.com/references/project-files to learn more about Rill project files.
+
+display_name: "consumptions_dashboard"
+model: "consumptions"
+timeseries: "timestamp"
+measures:
+  - label: Total records
+    expression: count(*)
+    description: Total number of records present
+    format_preset: humanize
+dimensions:
+  - label: Month
+    property: month
+    description: ""

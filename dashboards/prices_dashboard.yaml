@@ -1,0 +1,11 @@
+# Visit https://docs.rilldata.com/references/project-files to learn more about Rill project files.
+
+display_name: "prices_dashboard"
+model: "prices"
+timeseries: "timestamp"
+measures:
+  - label: Total records
+    expression: count(*)
+    description: Total number of records present
+    format_preset: humanize
+dimensions: []

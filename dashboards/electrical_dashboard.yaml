@@ -1,0 +1,20 @@
+# Visit https://docs.rilldata.com/references/project-files to learn more about Rill project files.
+
+display_name: "electrical_dashboard"
+model: "electrical"
+timeseries: "timestamp"
+measures:
+  - label: Total records
+    expression: count(*)
+    description: Total number of records present
+    format_preset: humanize
+dimensions:
+  - label: Year
+    property: year
+    description: ""
+  - label: Month
+    property: month
+    description: ""
+  - label: Hour
+    property: hour
+    description: ""

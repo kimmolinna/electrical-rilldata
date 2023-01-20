@@ -1,0 +1,28 @@
+# Visit https://docs.rilldata.com/references/project-files to learn more about Rill project files.
+
+display_name: "Electricity"
+model: "electrical"
+timeseries: "timestamp"
+measures:
+  - label: "Consumption"
+    expression: "sum(kwh)"
+    description: "kwH"
+    format_preset: humanize
+  - label: "Price"
+    expression: "avg(price)"
+    description: "cents/kwH"
+    format_preset: humanize
+  - label: "Cost"
+    expression: "sum(euros)"
+    description: "euros"
+    format_preset: humanize
+dimensions:
+  - label: "Month"
+    property: "month"
+    description: ""
+  - label: "Year"
+    property: "year"
+    description: ""
+  - label: "Hour"
+    property: "hour"
+    description: ""

@@ -1,0 +1,5 @@
+# Visit https://docs.rilldata.com/ to learn more about Rill code artifacts.
+
+type: "s3"
+region: ""
+uri: "s3://linna/fingrid/Nihtisalontie3as1_2021.parquet"

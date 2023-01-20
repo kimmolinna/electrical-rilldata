@@ -1,0 +1,5 @@
+# Visit https://docs.rilldata.com/ to learn more about Rill code artifacts.
+
+type: "s3"
+region: ""
+uri: "s3://linna/entsoe/entsoe_2023.parquet"
